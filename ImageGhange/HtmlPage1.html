@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload</title>
+    <script src="scripts/JavaScriptIMG.js"></script>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <!--font-family: 'Raleway', sans-serif;-->
+</head>
+<body>
+    <div id="title">Uploading and design photos</div>
+    <hr>
+    <div id="general">
+        <div id="upload">
+            <label for="upload-img">Upload an image</label>
+            <br />
+            <br />
+            <input class="all_bu" type="file" name="upload-img" id="upload-img" onchange="handleFiles(this.files)">
+            <br />
+        </div>
+
+
+
+        <div id="buttons_foto">
+
+
+            <input type="radio" name="choice" id="d_00" hidden />
+            <label class="butt_design" for="d_00">Original</label> <br /><br />
+
+            <input type="radio" name="choice" id="d_0" hidden />
+            <label class="butt_design" for="d_0">Contrast</label><br /><br />
+
+            <input type="radio" name="choice" id="d_1" hidden />
+            <label class="butt_design" for="d_1">Blur</label><br /><br />
+
+            <input type="radio" name="choice" id="d_2" hidden />
+            <label class="butt_design" for="d_2">Rotate &#10226</label> <br /><br />
+
+            <input type="radio" name="choice" id="d_3" hidden />
+            <label class="butt_design" for="d_3">Rotate &#10227</label> <br /><br />
+
+
+            <input type="radio" name="choice" id="d_4" hidden />
+            <label class="butt_design" for="d_4">Mirror</label> <br /><br />
+
+            <input type="radio" name="choice" id="d_5" hidden />
+            <label class="butt_design" for="d_5">Brightness</label> <br /><br />
+
+            <input type="radio" name="choice" id="d_6" hidden />
+            <label class="butt_design" for="d_6">Size*2</label> <br /><br />
+
+            <input type="radio" name="choice" id="d_7" hidden />
+            <label class="butt_design" for="d_7">Size/2</label> <br /><br />
+
+            <input type="radio" name="choice" id="d_8" hidden />
+            <label class="butt_design" for="d_8">Grayscale</label> <br /><br />
+
+            <input type="radio" name="choice" id="d_9" hidden />
+            <label class="butt_design" for="d_9">Invert</label> <br /><br />
+
+            <input type="radio" name="choice" id="d_10" hidden />
+            <label class="butt_design" for="d_10">Frame</label> <br /><br />
+
+
+            <img src="" alt="" id="inpt-img">
+
+        </div>
+    </div>
+    <script src="scripts/JavaScript.js"></script>
+</body>
+</html>
